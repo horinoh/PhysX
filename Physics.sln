@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Physics", "Physics\Physics.vcxproj", "{3B35DEE0-AF71-4EEA-B6C6-100CB4C57FA3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloWorld", "HelloWorld\HelloWorld.vcxproj", "{D80B30D4-549B-459C-B428-CEFF2AA08FFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3B35DEE0-AF71-4EEA-B6C6-100CB4C57FA3}.Debug|x64.ActiveCfg = Debug|x64
-		{3B35DEE0-AF71-4EEA-B6C6-100CB4C57FA3}.Debug|x64.Build.0 = Debug|x64
-		{3B35DEE0-AF71-4EEA-B6C6-100CB4C57FA3}.Debug|x86.ActiveCfg = Debug|Win32
-		{3B35DEE0-AF71-4EEA-B6C6-100CB4C57FA3}.Debug|x86.Build.0 = Debug|Win32
-		{3B35DEE0-AF71-4EEA-B6C6-100CB4C57FA3}.Release|x64.ActiveCfg = Release|x64
-		{3B35DEE0-AF71-4EEA-B6C6-100CB4C57FA3}.Release|x64.Build.0 = Release|x64
-		{3B35DEE0-AF71-4EEA-B6C6-100CB4C57FA3}.Release|x86.ActiveCfg = Release|Win32
-		{3B35DEE0-AF71-4EEA-B6C6-100CB4C57FA3}.Release|x86.Build.0 = Release|Win32
+		{D80B30D4-549B-459C-B428-CEFF2AA08FFE}.Debug|x64.ActiveCfg = Debug|x64
+		{D80B30D4-549B-459C-B428-CEFF2AA08FFE}.Debug|x64.Build.0 = Debug|x64
+		{D80B30D4-549B-459C-B428-CEFF2AA08FFE}.Debug|x86.ActiveCfg = Debug|Win32
+		{D80B30D4-549B-459C-B428-CEFF2AA08FFE}.Debug|x86.Build.0 = Debug|Win32
+		{D80B30D4-549B-459C-B428-CEFF2AA08FFE}.Release|x64.ActiveCfg = Release|x64
+		{D80B30D4-549B-459C-B428-CEFF2AA08FFE}.Release|x64.Build.0 = Release|x64
+		{D80B30D4-549B-459C-B428-CEFF2AA08FFE}.Release|x86.ActiveCfg = Release|Win32
+		{D80B30D4-549B-459C-B428-CEFF2AA08FFE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

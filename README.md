@@ -3,7 +3,9 @@
 ## PhysX    https://github.com/NVIDIAGameWorks/PhysX
 ### 必要なもの
 - CMake
+    - インストール時にPATHを通すオプションを選択しておく
 - Python
+    - インストール時にPATHを通すオプションを選択しておく
 - DXSDK
     - インストール時s1023エラーで怒られる場合
 		- 2010 再頒布可能パッケージを(2010 x86 Redistributable, 2010 x64 Redistributable)を一旦アンインストール
@@ -24,6 +26,14 @@
         ~~~
     - SampleRendererでwarningが出てコンパイルが通らない場合
         - Property - C/C++ - General - Treat Warnings As Errors を Noにする
+- 環境変数 **Path** に DLL のパスを通しておく
+    ~~~
+    ...\Physics\PhysX\physx\bin\win.x86_64.vc142.mt\checked
+    ~~~
+
+### PVD(PhysX Visual Debugger)
+- PVDは別途DL、インストールする必要がある https://developer.nvidia.com/physx-visual-debugger
+- PVDを立ち上げてから、アプリを起動する
 
 ### 使用
 #### VSの設定
